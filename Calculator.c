@@ -7,9 +7,9 @@ int main() {
   char op;
   printf("Enter an operator (+, -, *, /): ");
   scanf("%c", &op);
-  printf("Enter Number 1: ");
+  printf("Enter First Operand: ");
   scanf("%f", &num1);
-  printf("Enter Number 2: ");
+  printf("Enter Second operand: ");
   scanf("%f", &num2);
 
   switch (op) {
